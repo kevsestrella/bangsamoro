@@ -1,0 +1,8 @@
+Title:	Indicative BARMM Municipal Administrative Boundaries as of 2019 Feb 06
+File name:	AdministrativeBoundariesBARMMMunicipalities20190206PSA2016.shp
+Source agency:	Philippine Statistics Authority, COMELEC
+Date:	2019
+Reference: IMTWG_BarangayCOD_June2016.shp downloaded from UN-OCHA
+
+Description:
+Administrative boundaries of municipalities belonging to the BARMM as of 2019 Feb 06.  These boundaries are indicative and should not be considered authoritative.
