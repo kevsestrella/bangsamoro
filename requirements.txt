@@ -5,3 +5,4 @@ geopandas
 bokeh
 matplotlib
 rq
+tornado==4.4.2
