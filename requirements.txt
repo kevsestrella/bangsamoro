@@ -4,3 +4,4 @@ numpy
 geopandas
 bokeh
 matplotlib
+rq
