@@ -75,40 +75,40 @@ bm = bm.to_crs(epsg=4236)
 # In[10]:
 
 
-x = bm.plot(color='lightblue', edgecolor='gray', figsize=(30,30))
-y = bm.plot(color='lightblue', edgecolor='gray', figsize=(30,30))
-z = bm.plot(color='lightblue', edgecolor='gray', figsize=(30,30))
+#x = bm.plot(color='lightblue', edgecolor='gray', figsize=(30,30))
+#y = bm.plot(color='lightblue', edgecolor='gray', figsize=(30,30))
+#z = bm.plot(color='lightblue', edgecolor='gray', figsize=(30,30))
 
 
 # In[12]:
 
 
-highrisk.plot(ax=x, color='red')
+#highrisk.plot(ax=x, color='red')
 
 
 # In[13]:
 
 
-medrisk.plot(ax=x, color='orange')
+#medrisk.plot(ax=x, color='orange')
 
 
 # In[ ]:
 
 
-x.get_figure()
+#x.get_figure()
 
 
 # In[15]:
 
 
-medrisk10.plot(ax=y, color='orange')
-medrisk20.plot(ax=y, color='orange')
+#medrisk10.plot(ax=y, color='orange')
+#medrisk20.plot(ax=y, color='orange')
 
 
 # In[ ]:
 
 
-y.get_figure()
+#y.get_figure()
 
 
 # # Geo Data Preprocessing
