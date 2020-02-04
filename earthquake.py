@@ -197,7 +197,7 @@ def make_plot(severity):
 # In[12]:
 
 
-severity = 'high'
+severity = 'med'
 geosource = GeoJSONDataSource(geojson = json_data(severity))
 
 
