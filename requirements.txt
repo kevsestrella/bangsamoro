@@ -1,6 +1,9 @@
-fiona
-pandas
+jupyterlab
 numpy
+pandas
+fiona
 geopandas
-bokeh
 matplotlib
+plotly
+chart_studio
+bokeh
