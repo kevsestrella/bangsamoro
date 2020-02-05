@@ -32,12 +32,14 @@ app.layout = html.Div(
     ]
 )
 
+color = {'high':'reds', 'med':'oranges', 'med_sea':'algae'}
+
 @app.callback(Output("graph", "figure"), [Input("risk", "value")])
 def make_figure(risk):
-    return px.choropleth_mapbox(bm[['Mun_Name','Mun_Code','high','med', 'med_sea']], geojson=j_file, locations='Mun_Code',
-                           color=risk, color_continuous_scale='reds', range_color=(1,0),
-                           mapbox_style="carto-darkmatter", zoom=6, center = {"lat": 6.509640, "lon": 121.648446},
-                           opacity=0.5,labels={'Mun_Name':'Municipality','high':'risk'})
+    return px.choropleth_mapbox(bm[['Mun_Name','Mun_Code','POPULATION','high','med', 'med_sea']], geojson=j_file, locations='Mun_Code',
+                           color=risk, color_continuous_scale=color[risk], range_color=(1,0),
+                           mapbox_style="carto-positron", zoom=6, center = {"lat": 6.509640, "lon": 121.648446},
+                           opacity=0.5,labels={'Mun_Name':'Municipality',risk:'risk', 'POPULATION':'Population'}, hover_data = ['Mun_Name', 'POPULATION'])
 
 if __name__ == '__main__':
     app.run_server(debug=True)
