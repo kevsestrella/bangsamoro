@@ -4,6 +4,8 @@ pandas
 fiona
 geopandas
 matplotlib
+dash
 plotly
 chart_studio
 bokeh
+gunicorn
